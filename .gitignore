@@ -24,6 +24,7 @@ data/raw/
 
 # ── Generated MRL preparation outputs ───────────────────────────────────────
 data/processed/mrl-eye/
+data/processed/mrl/
 reports/mrl_dataset_preparation.json
 
 # ── OS / IDE ─────────────────────────────────────────────────────────────────
