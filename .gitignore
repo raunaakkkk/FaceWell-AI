@@ -1,0 +1,49 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── FaceWell raw datasets (do not commit) ────────────────────────────────────
+data/raw/downloads/
+data/raw/mrl-eye/
+data/raw/cnn-drowsiness/
+data/raw/
+
+# ── Generated MRL preparation outputs ───────────────────────────────────────
+data/processed/mrl-eye/
+reports/mrl_dataset_preparation.json
+
+# ── OS / IDE ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ── Model checkpoints and large outputs ──────────────────────────────────────
+models/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# FaceWell raw datasets (do not commit)
